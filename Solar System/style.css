@@ -1,0 +1,434 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+  background-image: url(image/space-galaxy.gif);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-repeat: cover;
+  
+}
+p1{
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    text-align: center;
+    left: -69px;
+    top:-20px  
+}
+p{
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    text-align: center;
+    left: -69px;
+    top:-20px  
+}
+.sun{
+    background-position: center;
+    height:150px;
+    width: 150px;
+    background-image:url(image/giphy.gif);
+    border-radius:50%;
+background-repeat: no-repeat;
+position: absolute;
+left: 50%;
+top:50%;
+transform:translate(-50%,-50%);
+color: white;
+text-decoration: white;
+background-size: cover;
+animation: orbit2 twinkle 2% linear infinite;
+box-shadow: -4px 2px 56px orangered;
+}
+
+            
+.mercury{
+    height:25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background:radial-gradient(circle,90%,175%); 
+    background-image: url(image/marcuri.jpg);
+     background-size: 25px;
+      border-radius:42%; 
+      position: absolute;
+      left: 45%; 
+      top:45%;
+       transform:translate(-50%,-50%);
+        animation: orbit1 4s linear infinite;
+         box-shadow: -4px 2px 56px lightblue;
+        }
+        @keyframes orbit1 {
+            from{transform: rotate(0deg)translateX(100px) rotate(0deg);}
+        to{transform: rotate(360deg)translateX(100px) rotate(-360deg);} 
+       } 
+    
+.marcury-outline{
+height: 190px;
+width: 190px;
+} 
+
+         .sun-outline,.marcury-outline,.venus-outline,.earth-outline,.moon-outline,.mars-outline,.jupiter-outline,.saturn-outline,.uranus-outline,.neptune-outline,.pluto-outline
+         {
+             border-radius: 50%;
+             border:2px dotted #ddd9;
+              position: absolute;
+               top:50%;
+                left:50%;
+                 transform: translate(-50%,-50%);
+                 }
+
+.venus{
+    height:35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background:radial-gradient(circle,90%,175%); 
+    background-image: url(image/venus.jpg);
+     background-size: 40px; 
+      border-radius:50%;
+      position: absolute;
+      left: 43%; 
+      top:42%;
+       transform:translate(-50%,-50%);
+        animation: orbit2 8s linear infinite;
+         box-shadow: -4px 2px 56px darkgoldenrod;
+        }
+        @keyframes orbit2 {
+            from{transform: rotate(0deg)translateX(140px) rotate(0deg);}
+        to{transform: rotate(360deg)translateX(140px) rotate(-360deg);} 
+       } 
+    
+
+.venus-outline{
+
+height: 280px;
+width: 280px;
+
+} 
+
+
+ .earth{
+    height:47px;
+    width: 47px;
+    background:radial-gradient(circle,60%,75%); 
+    background-image: url(image/earth.jpg);
+     background-size: 51px;
+      border-radius:50%; 
+      position: absolute;
+      left: 43%; 
+      top:42%;
+       transform:translate(-50%,-50%);
+       animation: orbit3 18s linear infinite;
+        box-shadow: -4px 2px 69px darkblue;
+        }
+        @keyframes orbit3 {
+            from{transform: rotate(0deg)translateX(187px) rotate(0deg);}
+        to{transform: rotate(360deg)translateX(187px) rotate(-360deg);} 
+       } 
+    
+
+.earth-outline {
+
+height:380px;
+width:380px;
+
+}  
+
+.moon-outline{
+        border-radius: 50%;
+        border:0px dotted #ddd9;
+         position: absolute;
+          top:50%;
+           left:75%;
+            transform: translate(-50%,-50%);
+            }
+.moon{
+    height:18px;
+    width: 18px;
+    background:radial-gradient(circle,60%,75%); 
+    background-image: url(image/moon.jpg);
+     background-size: 20px;
+      border-radius:50%; 
+      position: absolute;
+      left:30%;
+      top:45%;
+       transform:translate(-50%,-50%);
+        animation: orbit4 4s linear infinite;
+         box-shadow: -4px 2px 56px blue;
+        }
+        @keyframes orbit4 {
+            from{transform: rotate(0deg)translateX(60px) rotate(0deg);}
+        to{transform: rotate(360deg)translateX(60px) rotate(-360deg);}     
+       } 
+
+
+.moon-outline{
+
+    height:90px;
+    width:90px;
+
+}
+      
+
+.mars{
+    height:26px;
+    width: 26px;
+    background-repeat: no-repeat;
+    background:radial-gradient(circle,60%,75%); 
+    background-image: url(image/mars.jpg);
+     background-size: 26px;
+      border-radius:42%; 
+      position: absolute;
+      left: 45%; 
+      top:47%;
+       transform:translate(-50%,-50%);
+        animation: orbit5 35s linear infinite;
+         box-shadow: -4px 2px 56px orange;
+        }
+        @keyframes orbit5 {
+            from{transform: rotate(0deg)translateX(240px) rotate(0deg);}
+        to{transform: rotate(360deg)translateX(240px) rotate(-360deg);} 
+       } 
+    
+.mars-outline{
+height: 480px;
+width: 480px;
+} 
+
+.jupiter{
+    height:59px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background:radial-gradient(circle,60%,75%); 
+    background-image: url(image/jupiter.jpg);
+     background-size: 62px;
+      border-radius:42%; 
+      position: absolute;
+      left: 44%; 
+      top:44%;
+       transform:translate(-50%,-50%);
+        animation: orbit6 79s linear infinite;
+         box-shadow: -4px 2px 56px white;
+        }
+
+        @keyframes orbit6 {
+            from{transform: rotate(0deg)translateX(285px) rotate(0deg);}
+        to{transform: rotate(360deg)translateX(285px) rotate(-360deg);} 
+       } 
+    
+.jupiter-outline{
+height: 580px;
+width: 580px;
+} 
+
+.saturn{
+    height:60px;
+    width: 58px;
+    background:radial-gradient(center,60%,75%); 
+    background-image: url(image/sat.jpg);
+     background-size: 59px;
+      border-radius:90%; 
+      position: absolute;
+      left: 45%; 
+      top:47%;
+       transform:translate(-50%,-50%);
+        animation: orbit7 120s linear infinite;
+        box-shadow: -4px 2px 56px whitesmoke;
+        }
+        @keyframes orbit7 {
+            from{transform: rotate(0deg)translateX(340px) rotate(0deg);}
+        to{transform: rotate(360deg)translateX(340px) rotate(-360deg);} 
+       } 
+    
+.saturn-outline{
+height: 680px;
+width: 680px;
+} 
+
+.uranus{
+    height:26px;
+    width: 26px;
+    background-repeat: no-repeat;
+    background:radial-gradient(circle,60%,75%); 
+    background-image: url(image/uranus.jpg);
+     background-size: 25px;
+      border-radius:42%; 
+      position: absolute;
+      left: 48%; 
+      top:48%;
+       transform:translate(-50%,-50%);
+        animation: orbit8 169s linear infinite;
+         box-shadow: -4px 2px 56px aqua;
+        }
+        @keyframes orbit8 {
+            from{transform: rotate(0deg)translateX(397px) rotate(0deg);}
+        to{transform: rotate(360deg)translateX(397px) rotate(-360deg);} 
+       } 
+    
+.uranus-outline{
+height: 780px;
+width: 780px;
+} 
+
+.neptune{
+    height:38px;
+    width: 39px;
+    background-repeat: no-repeat;
+    background:radial-gradient(circle,60%,75%); 
+    background-image: url(image/neptune.jpg);
+     background-size: 40px;
+      border-radius:42%; 
+      position: absolute;
+      left:  47%;
+      top:48%;
+       transform:translate(-50%,-50%);
+        animation: orbit9 209s linear infinite;
+         box-shadow: -4px 2px 56px lightskyblue;
+        }
+        @keyframes orbit9 {
+            from{transform: rotate(0deg)translateX(439px) rotate(0deg);}
+        to{transform: rotate(360deg)translateX(439px) rotate(-360deg);} 
+       } 
+    
+.neptune-outline{
+height: 880px;
+width: 880px;
+} 
+
+.pluto{
+    height:16px;
+    width: 16px;
+    background-repeat: no-repeat;
+    background:radial-gradient(circle,60%,75%); 
+    background-image: url(image/pluto.jpg);
+     background-size: 17px;
+      border-radius:42%; 
+      position: absolute;
+      left: 49%; 
+      top:49%;
+       transform:translate(-50%,-50%);
+        animation: orbit10 279s linear infinite;
+         box-shadow: -4px 2px 56px wheat;
+        }
+        @keyframes orbit10 {
+            from{transform: rotate(0deg)translateX(496px) rotate(0deg);}
+        to{transform: rotate(360deg)translateX(496px) rotate(-360deg);} 
+       } 
+    
+.pluto-outline{
+height: 980px;
+width: 980px;
+}  
+
+
+.sky {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.star {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    animation: twinkle 2s linear infinite;
+}
+
+#star1 {
+    top: 10%;
+    left: 20%;
+    animation-duration: 3s;
+}
+
+#star2 {
+    top: 50%;
+    left: 60%;
+    animation-duration: 1s;
+}
+
+#star3 {
+    top: 20%;
+    left: 80%;
+    animation-duration: 4s;
+}
+
+#star4 {
+    top: 80%;
+    left: 40%;
+    animation-duration: 3s;
+}
+
+#star5 {
+    top: 30%;
+    left: 10%;
+    animation-duration: 6s;
+}
+#star6 {
+    top: 90%;
+    left: 50%;
+    animation-duration: 4s;
+}
+#star7 {
+    top: 70%;
+    left: 90%;
+    animation-duration: 4s;
+}
+#star8 {
+    top: 80%;
+    left: 40%;
+    animation-duration: 4s;
+}
+#star9 {
+    top: 30%;
+    left: 50%;
+    animation-duration: 4s;
+}
+#star10 {
+    top: 69%;
+    left: 79%;
+    animation-duration: 4s;
+}
+#star11 {
+    top: 40%;
+    left: 20%;
+    animation-duration: 2s;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 1;
+    }
+    5% {
+        opacity: 0.5;
+    }
+    10% {
+        opacity: 0.6;
+    }
+    15% {
+        opacity: 0.7;
+    }
+    20% {
+        opacity: 0.8;
+    }
+    25% {
+        opacity: 0.9;
+    }
+    
+    30% {
+        opacity: 0.5;
+    }
+    35% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 7;
+
+    }
+    5% {
+        opacity: 0.2;
+    }
+    
+    
+}
